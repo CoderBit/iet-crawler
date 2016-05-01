@@ -1,4 +1,5 @@
 class ScrapeController < ApplicationController
+	require 'resolv-replace'
 	def scrape	
 	require 'nokogiri'
     require 'open-uri'
