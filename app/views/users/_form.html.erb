@@ -1,3 +1,4 @@
+
 <%= form_for(user) do |f| %>
   <% if user.errors.any? %>
     <div id="error_explanation">
@@ -12,13 +13,14 @@
   <% end %>
 
 <div class="container">
+  <h1 class="heading">Subscribe</h1>
   <div class="field">
-    <%= f.label :email %>
-    <%= f.text_field :email %>
+    <%= f.label :email, class: "email" %>
+    <%= f.text_field :email, class: "text" %>
   </div>
 
   <div class="actions">
-    <%= f.submit :Subscribe %>
+    <%= f.submit :Subscribe, class: "button" %>
   </div>
 </div>
 <% end %>
