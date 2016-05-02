@@ -3,12 +3,15 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '>= 5.0.0.beta3', '< 5.1'
+
+#gem 'ruby', '>=2.3.0', '< 2.4'
+
 # Use mysql as the database for Active Record
 #group :production do
 #	gem 'pg', '>=0.18.4'
 #end
 #group :development do	
-	gem 'mysql2', '>= 0.3.18', '< 0.5'
+gem 'mysql2', '>= 0.3.18', '< 0.5'
 #end	
 # Use Puma as the app server
 gem 'puma'
